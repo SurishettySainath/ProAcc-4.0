@@ -1,0 +1,217 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 20,
+        "name": "Login to application",
+        "description": "",
+        "id": "create-analysis;login-to-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27688298689,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should navigate to ProAcc page",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_should_navigate_to_ProAcc_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3364063782,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters jc_Consultant and b12345@",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc_Consultant",
+                  "offset": 12
+                },
+                {
+                  "val": "b12345@",
+                  "offset": 30
+                }
+              ],
+              "location": "LogintoProAcc_StepDef.user_enters(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9003236592,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on LOG IN button",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_clicks_on_LOG_IN_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3007684732,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User will be logged in successfully",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_will_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Create Analysis functionality",
+        "description": "",
+        "id": "create-analysis;create-analysis-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5057527722,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on create analysis page",
+            "match": {
+              "location": "CreateAnalysisStepDef.user_is_on_create_analysis_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6055556671,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User has to select Customer Namejc Test, Project Namejc Pilot Phase Test and Instance NameJ12 from the dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc Test",
+                  "offset": 32
+                },
+                {
+                  "val": "jc Pilot Phase Test",
+                  "offset": 53
+                },
+                {
+                  "val": "J12",
+                  "offset": 90
+                }
+              ],
+              "location": "CreateAnalysisStepDef.user_has_to_select_Customer_Name_Project_Name_and_Instance_Name_from_the_dropdown(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17159137003,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User has to upload SAP READINESS CHECK FILES for ActivitiesActivities.xlsx, BWExtractorsBwextractors.xlsx, CustomCodeCustomCode.xlsx, HANADatabaseHanaDatabaseTables.xlsx, FioriAppsRecommendedFioriApps.xlsx, RelevantSimplificationRelevantSimplificationItems.xlsx, SAPReadinessSAP Readiness Check.docx",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Activities.xlsx",
+                  "offset": 59
+                },
+                {
+                  "val": "Bwextractors.xlsx",
+                  "offset": 88
+                },
+                {
+                  "val": "CustomCode.xlsx",
+                  "offset": 117
+                },
+                {
+                  "val": "HanaDatabaseTables.xlsx",
+                  "offset": 146
+                },
+                {
+                  "val": "RecommendedFioriApps.xlsx",
+                  "offset": 180
+                },
+                {
+                  "val": "RelevantSimplificationItems.xlsx",
+                  "offset": 229
+                },
+                {
+                  "val": "SAP Readiness Check.docx",
+                  "offset": 275
+                }
+              ],
+              "location": "CreateAnalysisStepDef.user_has_to_upload_SAP_READINESS_CHECK_FILES(String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 817966770,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User has to click on the term of use and acknowldge checkboxes",
+            "match": {
+              "location": "CreateAnalysisStepDef.user_has_to_click_on_the_term_of_use_and_acknowldge_checkboxes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4389708412,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User has to click on start analysis button",
+            "match": {
+              "location": "CreateAnalysisStepDef.user_has_to_click_on_start_analysis_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35249574620,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User should successfully navigate to readinesscheck",
+            "match": {
+              "location": "CreateAnalysisStepDef.User_should_successfully_navigate_to_readinesscheck()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Create Analysis",
+    "description": "",
+    "id": "create-analysis",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/Assessment/Create Analysis_Consultant.feature",
+    "tags": []
+  }
+]

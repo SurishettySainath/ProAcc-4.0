@@ -1,0 +1,417 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 20,
+        "name": "Create User Admin",
+        "description": "",
+        "id": "create-user-functionality;create-user-admin;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25924197333,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be on create new user page",
+            "match": {
+              "location": "CreateUser_StepDef.user_should_be_on_create_new_user_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22265953483,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to fill the fields like Namejc_Admin,LoginIDGlobalVariable.useradmin,PasswordGlobalVariable.passwordadmin,ConfirmpasswordGlobalVariable.passwordadmin,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeAdmin,Role,Customer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc_Admin",
+                  "offset": 37
+                },
+                {
+                  "val": "GlobalVariable.useradmin",
+                  "offset": 53
+                },
+                {
+                  "val": "GlobalVariable.passwordadmin",
+                  "offset": 86
+                },
+                {
+                  "val": "GlobalVariable.passwordadmin",
+                  "offset": 130
+                },
+                {
+                  "val": "Test@Promantus.com",
+                  "offset": 164
+                },
+                {
+                  "val": "8976543210",
+                  "offset": 194
+                },
+                {
+                  "val": "Admin",
+                  "offset": 213
+                },
+                {
+                  "val": "",
+                  "offset": 223
+                },
+                {
+                  "val": "",
+                  "offset": 232
+                }
+              ],
+              "location": "CreateUser_StepDef.user_has_to_fill_the_fields_like(String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12787615181,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to click on Create button",
+            "match": {
+              "location": "CreateUser_StepDef.User_has_to_click_on_Create_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3382068,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should successfully created new user",
+            "match": {
+              "location": "CreateUser_StepDef.user_should_successfully_created_new_user()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Create User Admin",
+        "description": "",
+        "id": "create-user-functionality;create-user-admin;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25296893219,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be on create new user page",
+            "match": {
+              "location": "CreateUser_StepDef.user_should_be_on_create_new_user_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21900176578,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to fill the fields like Namejc_PM,LoginIDGlobalVariable.userprojectmanager,PasswordGlobalVariable.passwordprojectmanager,ConfirmpasswordGlobalVariable.passwordprojectmanager,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeProject Manager,Role,Customer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc_PM",
+                  "offset": 37
+                },
+                {
+                  "val": "GlobalVariable.userprojectmanager",
+                  "offset": 50
+                },
+                {
+                  "val": "GlobalVariable.passwordprojectmanager",
+                  "offset": 92
+                },
+                {
+                  "val": "GlobalVariable.passwordprojectmanager",
+                  "offset": 145
+                },
+                {
+                  "val": "Test@Promantus.com",
+                  "offset": 188
+                },
+                {
+                  "val": "8976543210",
+                  "offset": 218
+                },
+                {
+                  "val": "Project Manager",
+                  "offset": 237
+                },
+                {
+                  "val": "",
+                  "offset": 257
+                },
+                {
+                  "val": "",
+                  "offset": 266
+                }
+              ],
+              "location": "CreateUser_StepDef.user_has_to_fill_the_fields_like(String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7498228196,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to click on Create button",
+            "match": {
+              "location": "CreateUser_StepDef.User_has_to_click_on_Create_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1657342,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should successfully created new user",
+            "match": {
+              "location": "CreateUser_StepDef.user_should_successfully_created_new_user()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Create User Admin",
+        "description": "",
+        "id": "create-user-functionality;create-user-admin;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24483311668,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be on create new user page",
+            "match": {
+              "location": "CreateUser_StepDef.user_should_be_on_create_new_user_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22398049120,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to fill the fields like Namejc_Consultant,LoginIDGlobalVariable.userconsultant,PasswordGlobalVariable.passwordconsultant,ConfirmpasswordGlobalVariable.passwordconsultant,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeConsultant,RoleFunctional,Customer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc_Consultant",
+                  "offset": 37
+                },
+                {
+                  "val": "GlobalVariable.userconsultant",
+                  "offset": 58
+                },
+                {
+                  "val": "GlobalVariable.passwordconsultant",
+                  "offset": 96
+                },
+                {
+                  "val": "GlobalVariable.passwordconsultant",
+                  "offset": 145
+                },
+                {
+                  "val": "Test@Promantus.com",
+                  "offset": 184
+                },
+                {
+                  "val": "8976543210",
+                  "offset": 214
+                },
+                {
+                  "val": "Consultant",
+                  "offset": 233
+                },
+                {
+                  "val": "Functional",
+                  "offset": 248
+                },
+                {
+                  "val": "",
+                  "offset": 267
+                }
+              ],
+              "location": "CreateUser_StepDef.user_has_to_fill_the_fields_like(String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7591527562,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to click on Create button",
+            "match": {
+              "location": "CreateUser_StepDef.User_has_to_click_on_Create_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 927290,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should successfully created new user",
+            "match": {
+              "location": "CreateUser_StepDef.user_should_successfully_created_new_user()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Create User Admin",
+        "description": "",
+        "id": "create-user-functionality;create-user-admin;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24754960537,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be on create new user page",
+            "match": {
+              "location": "CreateUser_StepDef.user_should_be_on_create_new_user_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23634680047,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to fill the fields like Namejc_Customer,LoginIDGlobalVariable.uc,PasswordGlobalVariable.pc,ConfirmpasswordGlobalVariable.pc,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeCustomer,RoleFunctional,Customerjc Test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc_Customer",
+                  "offset": 37
+                },
+                {
+                  "val": "GlobalVariable.uc",
+                  "offset": 56
+                },
+                {
+                  "val": "GlobalVariable.pc",
+                  "offset": 82
+                },
+                {
+                  "val": "GlobalVariable.pc",
+                  "offset": 115
+                },
+                {
+                  "val": "Test@Promantus.com",
+                  "offset": 138
+                },
+                {
+                  "val": "8976543210",
+                  "offset": 168
+                },
+                {
+                  "val": "Customer",
+                  "offset": 187
+                },
+                {
+                  "val": "Functional",
+                  "offset": 200
+                },
+                {
+                  "val": "jc Test",
+                  "offset": 219
+                }
+              ],
+              "location": "CreateUser_StepDef.user_has_to_fill_the_fields_like(String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7676351901,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to click on Create button",
+            "match": {
+              "location": "CreateUser_StepDef.User_has_to_click_on_Create_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1004044,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should successfully created new user",
+            "match": {
+              "location": "CreateUser_StepDef.user_should_successfully_created_new_user()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Create User Functionality",
+    "description": "",
+    "id": "create-user-functionality",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/User Settings/CreateUser.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="226.238067">
+<testcase classname="Create User Functionality" name="Create User Admin" time="60.989412">
+<system-out><![CDATA[Given User should be on create new user page................................passed
+When User has to fill the fields like Namejc_Admin,LoginIDGlobalVariable.useradmin,PasswordGlobalVariable.passwordadmin,ConfirmpasswordGlobalVariable.passwordadmin,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeAdmin,Role,Customer.passed
+And User has to click on Create button......................................passed
+Then User should successfully created new user..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Create User Functionality" name="Create User Admin 2" time="54.701878">
+<system-out><![CDATA[Given User should be on create new user page................................passed
+When User has to fill the fields like Namejc_PM,LoginIDGlobalVariable.userprojectmanager,PasswordGlobalVariable.passwordprojectmanager,ConfirmpasswordGlobalVariable.passwordprojectmanager,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeProject Manager,Role,Customer.passed
+And User has to click on Create button......................................passed
+Then User should successfully created new user..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Create User Functionality" name="Create User Admin 3" time="54.476793">
+<system-out><![CDATA[Given User should be on create new user page................................passed
+When User has to fill the fields like Namejc_Consultant,LoginIDGlobalVariable.userconsultant,PasswordGlobalVariable.passwordconsultant,ConfirmpasswordGlobalVariable.passwordconsultant,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeConsultant,RoleFunctional,Customer.passed
+And User has to click on Create button......................................passed
+Then User should successfully created new user..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Create User Functionality" name="Create User Admin 4" time="56.069984">
+<system-out><![CDATA[Given User should be on create new user page................................passed
+When User has to fill the fields like Namejc_Customer,LoginIDGlobalVariable.uc,PasswordGlobalVariable.pc,ConfirmpasswordGlobalVariable.pc,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeCustomer,RoleFunctional,Customerjc Test.passed
+And User has to click on Create button......................................passed
+Then User should successfully created new user..............................passed
+]]></system-out>
+</testcase>
+</testsuite>

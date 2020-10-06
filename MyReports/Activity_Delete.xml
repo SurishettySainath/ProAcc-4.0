@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="157.765553">
+<testcase classname="Activity deletion" name="Login to application" time="86.747435">
+<system-out><![CDATA[Given User should navigate to ProAcc page...................................passed
+And User enters Admin and Admin.............................................passed
+When User clicks on LOG IN button...........................................passed
+Then User will be logged in successfully....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Activity deletion" name="Activity deletion" time="30.225074">
+<system-out><![CDATA[Given User should navigate to Activity Creation page........................passed
+When User has to enter Activitynamejc Custom Code Assessment in search box..passed
+And User has to click on delete button for Activity.........................passed
+Then User has successfully deleted Activity.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Activity deletion" name="Activity deletion 2" time="15.011242">
+<system-out><![CDATA[Given User should navigate to Activity Creation page........................passed
+When User has to enter Activitynamejc Custom Code Pre_Conversion in search box.passed
+And User has to click on delete button for Activity.........................passed
+Then User has successfully deleted Activity.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Activity deletion" name="Activity deletion 3" time="13.324726">
+<system-out><![CDATA[Given User should navigate to Activity Creation page........................passed
+When User has to enter Activitynamejc Custom Code Conversion in search box..passed
+And User has to click on delete button for Activity.........................passed
+Then User has successfully deleted Activity.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Activity deletion" name="Activity deletion 4" time="12.457076">
+<system-out><![CDATA[Given User should navigate to Activity Creation page........................passed
+When User has to enter Activitynamejc Custom Code Post_Conversion in search box.passed
+And User has to click on delete button for Activity.........................passed
+Then User has successfully deleted Activity.................................passed
+]]></system-out>
+</testcase>
+</testsuite>

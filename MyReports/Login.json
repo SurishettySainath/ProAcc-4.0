@@ -1,0 +1,86 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 20,
+        "name": "Login to application",
+        "description": "",
+        "id": "proacc-login;login-to-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 49625262558,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should navigate to ProAcc page",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_should_navigate_to_ProAcc_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3341010479,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters Admin and Admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 12
+                },
+                {
+                  "val": "Admin",
+                  "offset": 22
+                }
+              ],
+              "location": "LogintoProAcc_StepDef.user_enters(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36812501199,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on LOG IN button",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_clicks_on_LOG_IN_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3003480240,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User will be logged in successfully",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_will_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "ProAcc login",
+    "description": "",
+    "id": "proacc-login",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/Common/Login.feature",
+    "tags": []
+  }
+]

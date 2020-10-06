@@ -1,0 +1,147 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 20,
+        "name": "Login to application",
+        "description": "",
+        "id": "to-view-all-the-details;login-to-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31767022009,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should navigate to ProAcc page",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_should_navigate_to_ProAcc_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3345657642,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters jc_PM and b12345@",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc_PM",
+                  "offset": 12
+                },
+                {
+                  "val": "b12345@",
+                  "offset": 22
+                }
+              ],
+              "location": "LogintoProAcc_StepDef.user_enters(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23874296332,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on LOG IN button",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_clicks_on_LOG_IN_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3003698453,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User will be logged in successfully",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_will_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "",
+        "description": "",
+        "id": "to-view-all-the-details;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5762658656,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on dashboard page",
+            "match": {
+              "location": "Dashboard.user_is_on_dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5709087762,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User has to select projectNamejc Pilot Phase Test and InstanceJ12 from dropdown of dashboard module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc Pilot Phase Test",
+                  "offset": 30
+                },
+                {
+                  "val": "J12",
+                  "offset": 62
+                }
+              ],
+              "location": "Dashboard.user_has_to_select_projectName_and_Instance_from_dropdown_of_dashboard_module(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10851484000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User has to verify texts and able to see the recent updates",
+            "match": {
+              "location": "Dashboard.user_has_to_verify_texts_and_able_to_see_the_recent_updates()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "To view all the details",
+    "description": "",
+    "id": "to-view-all-the-details",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/Home_Page/Dashboard.feature",
+    "tags": []
+  }
+]

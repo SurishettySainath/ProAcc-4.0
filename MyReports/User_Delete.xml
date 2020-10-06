@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="34.647438">
+<testcase classname="User deletion" name="User deletion" time="7.878723">
+<system-out><![CDATA[Given User should navigate to Userlist page.................................passed
+When User has to enter usernamejc_PM in search box..........................passed
+And User has to click on delete button......................................passed
+Then User has successfully deleted particular user..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="User deletion" name="User deletion 2" time="8.394181">
+<system-out><![CDATA[Given User should navigate to Userlist page.................................passed
+When User has to enter usernamejc_Admin in search box.......................passed
+And User has to click on delete button......................................passed
+Then User has successfully deleted particular user..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="User deletion" name="User deletion 3" time="8.634535">
+<system-out><![CDATA[Given User should navigate to Userlist page.................................passed
+When User has to enter usernamejc_Consultant in search box..................passed
+And User has to click on delete button......................................passed
+Then User has successfully deleted particular user..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="User deletion" name="User deletion 4" time="9.739999">
+<system-out><![CDATA[Given User should navigate to Userlist page.................................passed
+When User has to enter usernamejc_Customer in search box....................passed
+And User has to click on delete button......................................passed
+Then User has successfully deleted particular user..........................passed
+]]></system-out>
+</testcase>
+</testsuite>

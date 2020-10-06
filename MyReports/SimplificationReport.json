@@ -1,0 +1,63 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 12,
+        "name": "SimplificationReport functionality",
+        "description": "",
+        "id": "simplificationreport;simplificationreport-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke method createNode() on null object\r\n\tat org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)\r\n\tat SimplificationReportStepDef.user_is_on_SimplificationReport_page(SimplificationReport_StepDef.groovy:97)\r\n\tat ✽.User is on SimplificationReport page(Include/features/proAcc_Featurefile/Assessment/SimplificationReport.feature:13)\r\n",
+              "duration": 736085205,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "User is on SimplificationReport page",
+            "match": {
+              "location": "SimplificationReportStepDef.user_is_on_SimplificationReport_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User should select value from dropdownlist",
+            "match": {
+              "location": "SimplificationReportStepDef.user_should_select_value_from_dropdownlist()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User should see the Simplification report",
+            "match": {
+              "location": "SimplificationReportStepDef.user_should_see_the_Simplification_report()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "SimplificationReport",
+    "description": "",
+    "id": "simplificationreport",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/Assessment/SimplificationReport.feature",
+    "tags": []
+  }
+]

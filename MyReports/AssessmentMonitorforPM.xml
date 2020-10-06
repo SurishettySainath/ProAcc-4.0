@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="3.113816">
+<testcase classname="Assessment Monitor for PM" name="Assessment Monitor functionality for PM" time="3.113816">
+<failure message="java.lang.NullPointerException: Cannot invoke method createNode() on null object&#13;&#10;&#9;at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)&#13;&#10;&#9;at proAcc_Stepdef.AssessmentMonitorforPM_StepDef.user_is_on_Assessment_Monitor_page_for_project_manager(AssessmentMonitorforPM_StepDef.groovy:103)&#13;&#10;&#9;at ✽.User is on Assessment Monitor page for project manager(Include/features/proAcc_Featurefile/Assessment/AssessmentMoniterforPM.feature:13)&#13;&#10;"><![CDATA[Given User is on Assessment Monitor page for project manager................failed
+When User has to select Project Name"Conversion Pilot Phase Test" and Instance Name"D01" from the dropdown for project Assessment Monitor.skipped
+And User has to click on select instance button for PMAssessment Monitor....skipped
+And User has to edit task"3 days","5 days","Work In Progress" for project manager.skipped
+Then User should select instance successfully for Assessment Monitor PM.....skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke method createNode() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at proAcc_Stepdef.AssessmentMonitorforPM_StepDef.user_is_on_Assessment_Monitor_page_for_project_manager(AssessmentMonitorforPM_StepDef.groovy:103)
+	at ✽.User is on Assessment Monitor page for project manager(Include/features/proAcc_Featurefile/Assessment/AssessmentMoniterforPM.feature:13)
+]]></failure>
+</testcase>
+</testsuite>

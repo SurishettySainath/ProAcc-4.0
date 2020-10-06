@@ -1,0 +1,289 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 20,
+        "name": "User deletion",
+        "description": "",
+        "id": "user-deletion;user-deletion;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1885584914,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should navigate to Userlist page",
+            "match": {
+              "location": "User_Delete.user_should_navigate_to_Userlist_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3075590255,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to enter usernamejc_PM in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc_PM",
+                  "offset": 26
+                }
+              ],
+              "location": "User_Delete.user_has_to_enter_username_in_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2910674419,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to click on delete button",
+            "match": {
+              "location": "User_Delete.user_has_to_click_on_delete_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1760424,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has successfully deleted particular user",
+            "match": {
+              "location": "User_Delete.user_has_successfully_deleted_particular_user()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "User deletion",
+        "description": "",
+        "id": "user-deletion;user-deletion;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2445101759,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should navigate to Userlist page",
+            "match": {
+              "location": "User_Delete.user_should_navigate_to_Userlist_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3053475845,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to enter usernamejc_Admin in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc_Admin",
+                  "offset": 26
+                }
+              ],
+              "location": "User_Delete.user_has_to_enter_username_in_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2885222120,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to click on delete button",
+            "match": {
+              "location": "User_Delete.user_has_to_click_on_delete_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6055057,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has successfully deleted particular user",
+            "match": {
+              "location": "User_Delete.user_has_successfully_deleted_particular_user()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "User deletion",
+        "description": "",
+        "id": "user-deletion;user-deletion;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2536299771,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should navigate to Userlist page",
+            "match": {
+              "location": "User_Delete.user_should_navigate_to_Userlist_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3215405877,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to enter usernamejc_Consultant in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc_Consultant",
+                  "offset": 26
+                }
+              ],
+              "location": "User_Delete.user_has_to_enter_username_in_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2877850203,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to click on delete button",
+            "match": {
+              "location": "User_Delete.user_has_to_click_on_delete_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2609176,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has successfully deleted particular user",
+            "match": {
+              "location": "User_Delete.user_has_successfully_deleted_particular_user()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "User deletion",
+        "description": "",
+        "id": "user-deletion;user-deletion;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3855980334,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should navigate to Userlist page",
+            "match": {
+              "location": "User_Delete.user_should_navigate_to_Userlist_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2934377896,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to enter usernamejc_Customer in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc_Customer",
+                  "offset": 26
+                }
+              ],
+              "location": "User_Delete.user_has_to_enter_username_in_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2945384453,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to click on delete button",
+            "match": {
+              "location": "User_Delete.user_has_to_click_on_delete_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2015228,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has successfully deleted particular user",
+            "match": {
+              "location": "User_Delete.user_has_successfully_deleted_particular_user()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "User deletion",
+    "description": "",
+    "id": "user-deletion",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/Deletion/User_Delete.feature",
+    "tags": []
+  }
+]

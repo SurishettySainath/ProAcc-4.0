@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.165496">
+<testcase classname="User deletion" name="User deletion" time="21.165496">
+<system-out><![CDATA[Given User should navigate to Customerlist page.............................passed
+When User has to enter customernamejc Test in search box....................passed
+And User has to click on delete button for customer.........................passed
+Then User has successfully deleted customer.................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,76 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 19,
+        "name": "View Customer",
+        "description": "",
+        "id": "view-customer-functionality;view-customer;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7028645161,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be navigate view customer page",
+            "match": {
+              "location": "ViewCustomer_StepDef.user_should_be_navigate_view_customer_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6641618216,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User can search for the customer in customer search boxjc Test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc Test",
+                  "offset": 55
+                }
+              ],
+              "location": "ViewCustomer_StepDef.user_can_search_for_the_customer_in_customer_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 959343792,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User can see the created customer in the listjc Test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc Test",
+                  "offset": 45
+                }
+              ],
+              "location": "ViewCustomer_StepDef.user_can_see_the_created_customer_in_the_list(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "View Customer functionality",
+    "description": "",
+    "id": "view-customer-functionality",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/User Settings/ViewCustomer.feature",
+    "tags": []
+  }
+]

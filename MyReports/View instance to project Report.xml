@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.529298">
+<testcase classname="View instance project list" name="View instance project list functionality" time="7.529298">
+<system-out><![CDATA[Given User navigate to view instance project list page......................passed
+Then User can search instance project name in searchF01.....................passed
+]]></system-out>
+</testcase>
+</testsuite>

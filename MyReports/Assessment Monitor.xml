@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="47.071635">
+<testcase classname="Assessment Monitor" name="Login to application" time="34.48996">
+<system-out><![CDATA[Given User should navigate to ProAcc page...................................passed
+And User enters GlobalVariable.uc and GlobalVariable.pc.....................passed
+When User clicks on LOG IN button...........................................passed
+Then User will be logged in successfully....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Assessment Monitor" name="Assessment Monitor functionality" time="12.581675">
+<system-out><![CDATA[Given User is on Assessment Monitor page....................................passed
+When User has to select Project NameAlexa Pilot Phase Test and Instance NameP01 from the dropdown for Assessment Monitor.passed
+And User has to click on select instance button for Assessment Monitor......passed
+And User has to edit a particular task3,5,Work In Progress..................passed
+Then User should select instance successfully for Assessment Monitor........passed
+]]></system-out>
+</testcase>
+</testsuite>

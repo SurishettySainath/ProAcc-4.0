@@ -1,0 +1,147 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 20,
+        "name": "Login to application",
+        "description": "",
+        "id": "view-issue-list;login-to-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 40029696506,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should navigate to ProAcc page",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_should_navigate_to_ProAcc_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3365573418,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters jc_PM and b12345@",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc_PM",
+                  "offset": 12
+                },
+                {
+                  "val": "b12345@",
+                  "offset": 22
+                }
+              ],
+              "location": "LogintoProAcc_StepDef.user_enters(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22455514814,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on LOG IN button",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_clicks_on_LOG_IN_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3004965334,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User will be logged in successfully",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_will_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "View Issue",
+        "description": "",
+        "id": "view-issue-list;view-issue;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6626092568,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User should be navigate Issue List page",
+            "match": {
+              "location": "ViewIssue.user_should_be_navigate_Issue_List_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13191745238,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User should select Project namejc Pilot Phase Test and Instance nameJ12 from the dropdown for issue list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc Pilot Phase Test",
+                  "offset": 31
+                },
+                {
+                  "val": "J12",
+                  "offset": 68
+                }
+              ],
+              "location": "ViewIssue.user_should_select_Project_name_and_Instance_name_from_the_dropdown(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 386794899,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User should click on select instance button for issue list",
+            "match": {
+              "location": "ViewIssue.user_should_click_on_select_instance_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "View Issue List",
+    "description": "",
+    "id": "view-issue-list",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/IssueTrack/ViewIssue.feature",
+    "tags": []
+  }
+]

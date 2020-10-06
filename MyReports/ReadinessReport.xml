@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="29.001066">
+<testcase classname="ReadinessReport" name="Login to application" time="27.474523">
+<system-out><![CDATA[Given User should navigate to ProAcc page...................................passed
+And User enters GlobalVariable.userconsultant and GlobalVariable.passwordconsultant.passed
+When User clicks on LOG IN button...........................................passed
+Then User will be logged in successfully....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="ReadinessReport" name="ReadinessReport functionality" time="1.526543">
+<failure message="java.lang.NullPointerException: Cannot invoke method createNode() on null object&#13;&#10;&#9;at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)&#13;&#10;&#9;at ReadinessReportStepDef.user_is_on_ReadinessReport_page(ReadinessReport_StepDef.groovy:100)&#13;&#10;&#9;at ✽.User is on ReadinessReport page(Include/features/proAcc_Featurefile/Assessment/ReadinessReport.feature:23)&#13;&#10;"><![CDATA[Given User is on ReadinessReport page.......................................failed
+When User should select customer nameJames Test, project nameJames Pilot Phase Test and instance nameL01 from the dropdown list.skipped
+Then User should see the Rediness report....................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke method createNode() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at ReadinessReportStepDef.user_is_on_ReadinessReport_page(ReadinessReport_StepDef.groovy:100)
+	at ✽.User is on ReadinessReport page(Include/features/proAcc_Featurefile/Assessment/ReadinessReport.feature:23)
+]]></failure>
+</testcase>
+</testsuite>

@@ -1,0 +1,160 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Creajcg new Project",
+        "description": "",
+        "id": "project-creation;creajcg-new-project;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5420124261,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on Project Creation page",
+            "match": {
+              "location": "Addprojecttocustomer.user_is_on_Customer_project_configuration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3670642235,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to enter project namejc Pilot Phase Test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc Pilot Phase Test",
+                  "offset": 30
+                }
+              ],
+              "location": "Addprojecttocustomer.user_has_to_enter_project_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1077929009,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to enter project descriptionPro acc Inprogress",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pro acc Inprogress",
+                  "offset": 37
+                }
+              ],
+              "location": "Addprojecttocustomer.user_has_to_enter_description(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1778649288,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has to select Customer name from dropdownjc Test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc Test",
+                  "offset": 46
+                }
+              ],
+              "location": "Addprojecttocustomer.user_has_to_select_Customer_name_from_dropdown(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1466342427,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User has to select Project manager from dropdownjc_PM",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc_PM",
+                  "offset": 48
+                }
+              ],
+              "location": "Addprojecttocustomer.user_has_to_select_project_manager_from_dropdown(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1517138144,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User has to select Scenario from dropdownMERGE",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MERGE",
+                  "offset": 41
+                }
+              ],
+              "location": "Addprojecttocustomer.User_has_to_select_Scenario_from_dropdown(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5429805033,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User has to click create button for project creation",
+            "match": {
+              "location": "Addprojecttocustomer.User_has_to_click_create_button_for_project_creation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3873957188,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User can search for created project in listjc Pilot Phase Test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc Pilot Phase Test",
+                  "offset": 43
+                }
+              ],
+              "location": "Addprojecttocustomer.user_can_serach_for_project(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Project Creation",
+    "description": "",
+    "id": "project-creation",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/Configuration/CreateProject.feature",
+    "tags": []
+  }
+]

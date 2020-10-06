@@ -1,0 +1,82 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 22,
+        "name": "Project deletion",
+        "description": "",
+        "id": "project-deletion;project-deletion;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1317424809,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should navigate to Project Creation page",
+            "match": {
+              "location": "Prj_Delete.user_should_navigate_to_Project_Creation_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2124500600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has to enter Projectnamejc Pilot Phase Test in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc Pilot Phase Test",
+                  "offset": 29
+                }
+              ],
+              "location": "Prj_Delete.user_has_to_enter_Projectname_in_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4812943872,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User has to click on delete button for project",
+            "match": {
+              "location": "Prj_Delete.user_has_to_click_on_delete_button_for_project()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2502612077,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User has successfully deleted Project",
+            "match": {
+              "location": "Prj_Delete.user_has_successfully_deleted_Project()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Project deletion",
+    "description": "",
+    "id": "project-deletion",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/Deletion/Prj_Delete.feature",
+    "tags": []
+  }
+]

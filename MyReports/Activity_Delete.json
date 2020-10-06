@@ -1,0 +1,362 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 20,
+        "name": "Login to application",
+        "description": "",
+        "id": "activity-deletion;login-to-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28073467036,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should navigate to ProAcc page",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_should_navigate_to_ProAcc_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3335519026,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters Admin and Admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 12
+                },
+                {
+                  "val": "Admin",
+                  "offset": 22
+                }
+              ],
+              "location": "LogintoProAcc_StepDef.user_enters(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52320118326,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on LOG IN button",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_clicks_on_LOG_IN_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3008014505,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User will be logged in successfully",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_will_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Activity deletion",
+        "description": "",
+        "id": "activity-deletion;activity-deletion;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13720408472,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User should navigate to Activity Creation page",
+            "match": {
+              "location": "Activity_Delete.user_should_navigate_to_Activity_Creation_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10678970003,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User has to enter Activitynamejc Custom Code Assessment in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc Custom Code Assessment",
+                  "offset": 30
+                }
+              ],
+              "location": "Activity_Delete.user_has_to_enter_Activityname_in_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5820559436,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User has to click on delete button for Activity",
+            "match": {
+              "location": "Activity_Delete.user_has_to_click_on_delete_button_for_Activity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1114266,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User has successfully deleted Activity",
+            "match": {
+              "location": "Activity_Delete.user_has_successfully_deleted_Activity()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Activity deletion",
+        "description": "",
+        "id": "activity-deletion;activity-deletion;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3562286222,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User should navigate to Activity Creation page",
+            "match": {
+              "location": "Activity_Delete.user_should_navigate_to_Activity_Creation_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5581547808,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User has to enter Activitynamejc Custom Code Pre_Conversion in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc Custom Code Pre_Conversion",
+                  "offset": 30
+                }
+              ],
+              "location": "Activity_Delete.user_has_to_enter_Activityname_in_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5863961370,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User has to click on delete button for Activity",
+            "match": {
+              "location": "Activity_Delete.user_has_to_click_on_delete_button_for_Activity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1252601,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User has successfully deleted Activity",
+            "match": {
+              "location": "Activity_Delete.user_has_successfully_deleted_Activity()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Activity deletion",
+        "description": "",
+        "id": "activity-deletion;activity-deletion;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2026682588,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User should navigate to Activity Creation page",
+            "match": {
+              "location": "Activity_Delete.user_should_navigate_to_Activity_Creation_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5518175656,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User has to enter Activitynamejc Custom Code Conversion in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc Custom Code Conversion",
+                  "offset": 30
+                }
+              ],
+              "location": "Activity_Delete.user_has_to_enter_Activityname_in_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5776306964,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User has to click on delete button for Activity",
+            "match": {
+              "location": "Activity_Delete.user_has_to_click_on_delete_button_for_Activity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1199944,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User has successfully deleted Activity",
+            "match": {
+              "location": "Activity_Delete.user_has_successfully_deleted_Activity()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "Activity deletion",
+        "description": "",
+        "id": "activity-deletion;activity-deletion;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1195199597,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User should navigate to Activity Creation page",
+            "match": {
+              "location": "Activity_Delete.user_should_navigate_to_Activity_Creation_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5487430035,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User has to enter Activitynamejc Custom Code Post_Conversion in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc Custom Code Post_Conversion",
+                  "offset": 30
+                }
+              ],
+              "location": "Activity_Delete.user_has_to_enter_Activityname_in_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5771822233,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User has to click on delete button for Activity",
+            "match": {
+              "location": "Activity_Delete.user_has_to_click_on_delete_button_for_Activity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 986641,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User has successfully deleted Activity",
+            "match": {
+              "location": "Activity_Delete.user_has_successfully_deleted_Activity()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Activity deletion",
+    "description": "",
+    "id": "activity-deletion",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/Deletion/Activity_Delete.feature",
+    "tags": []
+  }
+]

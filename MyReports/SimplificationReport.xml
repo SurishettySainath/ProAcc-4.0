@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.741483">
+<testcase classname="SimplificationReport" name="SimplificationReport functionality" time="0.741483">
+<failure message="java.lang.NullPointerException: Cannot invoke method createNode() on null object&#13;&#10;&#9;at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)&#13;&#10;&#9;at SimplificationReportStepDef.user_is_on_SimplificationReport_page(SimplificationReport_StepDef.groovy:97)&#13;&#10;&#9;at ✽.User is on SimplificationReport page(Include/features/proAcc_Featurefile/Assessment/SimplificationReport.feature:13)&#13;&#10;"><![CDATA[Given User is on SimplificationReport page..................................failed
+When User should select value from dropdownlist.............................skipped
+Then User should see the Simplification report..............................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke method createNode() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at SimplificationReportStepDef.user_is_on_SimplificationReport_page(SimplificationReport_StepDef.groovy:97)
+	at ✽.User is on SimplificationReport page(Include/features/proAcc_Featurefile/Assessment/SimplificationReport.feature:13)
+]]></failure>
+</testcase>
+</testsuite>

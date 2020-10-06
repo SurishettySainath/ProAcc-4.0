@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="71.01751">
+<testcase classname="PM Task Monitor" name="Login to application" time="31.243057">
+<system-out><![CDATA[Given User should navigate to ProAcc page...................................passed
+And User enters jc_PM and b12345@...........................................passed
+When User clicks on LOG IN button...........................................passed
+Then User will be logged in successfully....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="PM Task Monitor" name="" time="39.774453">
+<system-out><![CDATA[Given User is on PM Task Monitor page.......................................passed
+When User has to select Projectjc Pilot Phase Test for PM Task Monitor......passed
+And User has to click on Submit button for PM Task Monitor..................passed
+And User has to edit the taskQA,12:00,13:00 and statusWork In Progress and commentsWork In Progress for PM Task Monitor.passed
+Then User successfully submitted the project name for PM Task Monitor module.passed
+]]></system-out>
+</testcase>
+</testsuite>

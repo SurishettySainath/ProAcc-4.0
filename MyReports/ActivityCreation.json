@@ -1,0 +1,393 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 20,
+        "name": "Creating Activity",
+        "description": "",
+        "id": "activity-creation;creating-activity;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3134296056,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on create activity page",
+            "match": {
+              "location": "ActivityCreation_StepDef.user_is_on_create_activity_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8414647088,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to fill the fields like Taskjc Custom Code Assessment,ApplicationAreaFunctional - All,PhaseAssessment,RoleFunctional,BuildingBlockApplication Overview,Est Hrs10:43",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc Custom Code Assessment",
+                  "offset": 37
+                },
+                {
+                  "val": "Functional - All",
+                  "offset": 78
+                },
+                {
+                  "val": "Assessment",
+                  "offset": 100
+                },
+                {
+                  "val": "Functional",
+                  "offset": 115
+                },
+                {
+                  "val": "Application Overview",
+                  "offset": 139
+                },
+                {
+                  "val": "10:43",
+                  "offset": 167
+                }
+              ],
+              "location": "ActivityCreation_StepDef.user_has_to_fill_the_fields_like_Task_Sequence_ApplicationArea_Phase_and_Role(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9854047214,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to click on create button for create activity and need to select task",
+            "match": {
+              "location": "ActivityCreation_StepDef.user_has_to_click_on_create_button_for_create_activity_and_need_to_select_task()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3928070713,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User can search for created activity in listjc Custom Code Assessment",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc Custom Code Assessment",
+                  "offset": 44
+                }
+              ],
+              "location": "ActivityCreation_StepDef.user_can_search_for_created_activity_in_list(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Creating Activity",
+        "description": "",
+        "id": "activity-creation;creating-activity;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1294638358,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on create activity page",
+            "match": {
+              "location": "ActivityCreation_StepDef.user_is_on_create_activity_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8039155942,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to fill the fields like Taskjc Custom Code Pre_Conversion,ApplicationAreaFunctional - All,PhasePre Conversion,RoleFunctional,BuildingBlockData Consistency Verification,Est Hrs11:34",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc Custom Code Pre_Conversion",
+                  "offset": 37
+                },
+                {
+                  "val": "Functional - All",
+                  "offset": 82
+                },
+                {
+                  "val": "Pre Conversion",
+                  "offset": 104
+                },
+                {
+                  "val": "Functional",
+                  "offset": 123
+                },
+                {
+                  "val": "Data Consistency Verification",
+                  "offset": 147
+                },
+                {
+                  "val": "11:34",
+                  "offset": 184
+                }
+              ],
+              "location": "ActivityCreation_StepDef.user_has_to_fill_the_fields_like_Task_Sequence_ApplicationArea_Phase_and_Role(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9831664166,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to click on create button for create activity and need to select task",
+            "match": {
+              "location": "ActivityCreation_StepDef.user_has_to_click_on_create_button_for_create_activity_and_need_to_select_task()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3957310714,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User can search for created activity in listjc Custom Code Pre_Conversion",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc Custom Code Pre_Conversion",
+                  "offset": 44
+                }
+              ],
+              "location": "ActivityCreation_StepDef.user_can_search_for_created_activity_in_list(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Creating Activity",
+        "description": "",
+        "id": "activity-creation;creating-activity;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2282564838,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on create activity page",
+            "match": {
+              "location": "ActivityCreation_StepDef.user_is_on_create_activity_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8974319671,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to fill the fields like Taskjc Custom Code Conversion,ApplicationAreaTechnical - BASIS,PhaseConversion,RoleBASIS,BuildingBlockCustom Code,Est Hrs12:34",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc Custom Code Conversion",
+                  "offset": 37
+                },
+                {
+                  "val": "Technical - BASIS",
+                  "offset": 78
+                },
+                {
+                  "val": "Conversion",
+                  "offset": 101
+                },
+                {
+                  "val": "BASIS",
+                  "offset": 116
+                },
+                {
+                  "val": "Custom Code",
+                  "offset": 135
+                },
+                {
+                  "val": "12:34",
+                  "offset": 154
+                }
+              ],
+              "location": "ActivityCreation_StepDef.user_has_to_fill_the_fields_like_Task_Sequence_ApplicationArea_Phase_and_Role(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9833628076,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to click on create button for create activity and need to select task",
+            "match": {
+              "location": "ActivityCreation_StepDef.user_has_to_click_on_create_button_for_create_activity_and_need_to_select_task()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10420284908,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User can search for created activity in listjc Custom Code Conversion",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc Custom Code Conversion",
+                  "offset": 44
+                }
+              ],
+              "location": "ActivityCreation_StepDef.user_can_search_for_created_activity_in_list(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Creating Activity",
+        "description": "",
+        "id": "activity-creation;creating-activity;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1750384326,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on create activity page",
+            "match": {
+              "location": "ActivityCreation_StepDef.user_is_on_create_activity_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9455858419,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to fill the fields like Taskjc Custom Code Post_Conversion,ApplicationAreaFunctional - All,PhasePost Conversion,RoleFunctional,BuildingBlockApplication Overview,Est Hrs34:32",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc Custom Code Post_Conversion",
+                  "offset": 37
+                },
+                {
+                  "val": "Functional - All",
+                  "offset": 83
+                },
+                {
+                  "val": "Post Conversion",
+                  "offset": 105
+                },
+                {
+                  "val": "Functional",
+                  "offset": 125
+                },
+                {
+                  "val": "Application Overview",
+                  "offset": 149
+                },
+                {
+                  "val": "34:32",
+                  "offset": 177
+                }
+              ],
+              "location": "ActivityCreation_StepDef.user_has_to_fill_the_fields_like_Task_Sequence_ApplicationArea_Phase_and_Role(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9849707510,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to click on create button for create activity and need to select task",
+            "match": {
+              "location": "ActivityCreation_StepDef.user_has_to_click_on_create_button_for_create_activity_and_need_to_select_task()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4085406685,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User can search for created activity in listjc Custom Code Post_Conversion",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc Custom Code Post_Conversion",
+                  "offset": 44
+                }
+              ],
+              "location": "ActivityCreation_StepDef.user_can_search_for_created_activity_in_list(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Activity Creation",
+    "description": "",
+    "id": "activity-creation",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/Configuration/ActivityCreation.feature",
+    "tags": []
+  }
+]

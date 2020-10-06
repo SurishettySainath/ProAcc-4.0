@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="84.229185">
+<testcase classname="Pm file upload in Pm login" name="Login to application" time="61.320902">
+<system-out><![CDATA[Given User should navigate to ProAcc page...................................passed
+And User enters jc_PM and b12345@...........................................passed
+When User clicks on LOG IN button...........................................passed
+Then User will be logged in successfully....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Pm file upload in Pm login" name="Pm file upload" time="22.908283">
+<system-out><![CDATA[Given User should navigate to Pm file upload page...........................passed
+When User has to select Project Namejc Pilot Phase Test and Instance NameJ12 from the dropdown.passed
+And User has to upload PM FILES for Comprehensive Assessment and Readiness Check Report, Landscape System Management, Custom Code Analysis, License Optimization.passed
+Then User should upload file successfully and navigate to assessment report.passed
+]]></system-out>
+</testcase>
+</testsuite>

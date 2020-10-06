@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CustomerDelete</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ddbd8362-a734-4894-83e6-35f638755416</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,265 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 19,
+        "name": "View User list",
+        "description": "",
+        "id": "view-user-list-functionality;view-user-list;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3761603000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be navigate to view user list page",
+            "match": {
+              "location": "ViewUser_StepDef.user_should_be_navigate_to_view_user_list_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4290938700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User can search for the user in user search boxAlexa_Admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alexa_Admin",
+                  "offset": 47
+                }
+              ],
+              "location": "ViewUser_StepDef.user_can_search_for_the_user_in_user_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 495890700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User can see the created User in the listAlexa_Admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alexa_Admin",
+                  "offset": 41
+                }
+              ],
+              "location": "ViewUser_StepDef.user_can_see_the_created_User_in_the_list(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "View User list",
+        "description": "",
+        "id": "view-user-list-functionality;view-user-list;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3506941400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be navigate to view user list page",
+            "match": {
+              "location": "ViewUser_StepDef.user_should_be_navigate_to_view_user_list_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4217636100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User can search for the user in user search boxAlexaPM",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AlexaPM",
+                  "offset": 47
+                }
+              ],
+              "location": "ViewUser_StepDef.user_can_search_for_the_user_in_user_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 468733200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User can see the created User in the listAlexaPM",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AlexaPM",
+                  "offset": 41
+                }
+              ],
+              "location": "ViewUser_StepDef.user_can_see_the_created_User_in_the_list(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "View User list",
+        "description": "",
+        "id": "view-user-list-functionality;view-user-list;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3410760300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be navigate to view user list page",
+            "match": {
+              "location": "ViewUser_StepDef.user_should_be_navigate_to_view_user_list_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4211063900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User can search for the user in user search boxAlexa_Consultant",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alexa_Consultant",
+                  "offset": 47
+                }
+              ],
+              "location": "ViewUser_StepDef.user_can_search_for_the_user_in_user_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 716166600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User can see the created User in the listAlexa_Consultant",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alexa_Consultant",
+                  "offset": 41
+                }
+              ],
+              "location": "ViewUser_StepDef.user_can_see_the_created_User_in_the_list(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "View User list",
+        "description": "",
+        "id": "view-user-list-functionality;view-user-list;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3464984000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be navigate to view user list page",
+            "match": {
+              "location": "ViewUser_StepDef.user_should_be_navigate_to_view_user_list_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4252811000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User can search for the user in user search boxAlexa_Customer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alexa_Customer",
+                  "offset": 47
+                }
+              ],
+              "location": "ViewUser_StepDef.user_can_search_for_the_user_in_user_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 517723900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User can see the created User in the listAlexa_Customer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alexa_Customer",
+                  "offset": 41
+                }
+              ],
+              "location": "ViewUser_StepDef.user_can_see_the_created_User_in_the_list(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "View User list functionality",
+    "description": "",
+    "id": "view-user-list-functionality",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/User Settings/ViewUser.feature",
+    "tags": []
+  }
+]

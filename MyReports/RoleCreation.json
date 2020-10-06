@@ -1,0 +1,88 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 20,
+        "name": "Creating New Role",
+        "description": "",
+        "id": "role-creation;creating-new-role;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 802869000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on Role Creation page",
+            "match": {
+              "location": "RoleCreation_StepDef.user_is_on_Role_Creation_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1055641600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to enter Role nameUserRole",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UserRole",
+                  "offset": 27
+                }
+              ],
+              "location": "RoleCreation_StepDef.user_has_to_enter_Role_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3514252400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to click on create button for create Role",
+            "match": {
+              "location": "RoleCreation_StepDef.user_has_to_click_on_create_button_for_create_Role()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6744752000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User can search for created Role in listUserRole",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UserRole",
+                  "offset": 40
+                }
+              ],
+              "location": "RoleCreation_StepDef.user_can_search_for_created_Role_in_list(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Role Creation",
+    "description": "",
+    "id": "role-creation",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/Configuration/Role creation.feature",
+    "tags": []
+  }
+]

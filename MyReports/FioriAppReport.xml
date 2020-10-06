@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.750421">
+<testcase classname="FioriApp Report" name="FioriApp Report functionality" time="0.750421">
+<failure message="java.lang.NullPointerException: Cannot invoke method createNode() on null object&#13;&#10;&#9;at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)&#13;&#10;&#9;at FioriAppsReportStepDef.user_is_on_FioriApp_Report_page(FioriAppsReport_StepDef.groovy:96)&#13;&#10;&#9;at ✽.User is on FioriApp Report page(Include/features/proAcc_Featurefile/Assessment/FioriAppReport.feature:13)&#13;&#10;"><![CDATA[Given User is on FioriApp Report page.......................................failed
+When User should select value from dropdownlist of FioriApps report.........skipped
+Then User should see the FioriApp Report....................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke method createNode() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at FioriAppsReportStepDef.user_is_on_FioriApp_Report_page(FioriAppsReport_StepDef.groovy:96)
+	at ✽.User is on FioriApp Report page(Include/features/proAcc_Featurefile/Assessment/FioriAppReport.feature:13)
+]]></failure>
+</testcase>
+</testsuite>

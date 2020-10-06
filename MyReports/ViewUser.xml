@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="33.326215">
+<testcase classname="View User list functionality" name="View User list" time="8.553727">
+<system-out><![CDATA[Given User should be navigate to view user list page........................passed
+When User can search for the user in user search boxAlexa_Admin.............passed
+Then User can see the created User in the listAlexa_Admin...................passed
+]]></system-out>
+</testcase>
+<testcase classname="View User list functionality" name="View User list 2" time="8.195009">
+<system-out><![CDATA[Given User should be navigate to view user list page........................passed
+When User can search for the user in user search boxAlexaPM.................passed
+Then User can see the created User in the listAlexaPM.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="View User list functionality" name="View User list 3" time="8.339483">
+<system-out><![CDATA[Given User should be navigate to view user list page........................passed
+When User can search for the user in user search boxAlexa_Consultant........passed
+Then User can see the created User in the listAlexa_Consultant..............passed
+]]></system-out>
+</testcase>
+<testcase classname="View User list functionality" name="View User list 4" time="8.237996">
+<system-out><![CDATA[Given User should be navigate to view user list page........................passed
+When User can search for the user in user search boxAlexa_Customer..........passed
+Then User can see the created User in the listAlexa_Customer................passed
+]]></system-out>
+</testcase>
+</testsuite>

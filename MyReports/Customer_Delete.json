@@ -1,0 +1,82 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 20,
+        "name": "User deletion",
+        "description": "",
+        "id": "user-deletion;user-deletion;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17167204611,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should navigate to Customerlist page",
+            "match": {
+              "location": "Customer_Delete.user_should_navigate_to_Customerlist_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2150989965,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to enter customernamejc Test in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc Test",
+                  "offset": 30
+                }
+              ],
+              "location": "Customer_Delete.user_has_to_enter_customername_in_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1840638983,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to click on delete button for customer",
+            "match": {
+              "location": "Customer_Delete.user_has_to_click_on_delete_button_for_customer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1397629,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has successfully deleted customer",
+            "match": {
+              "location": "Customer_Delete.user_has_successfully_deleted_customer()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "User deletion",
+    "description": "",
+    "id": "user-deletion",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/Deletion/Customer_Delete.feature",
+    "tags": []
+  }
+]

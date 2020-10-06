@@ -1,0 +1,82 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 20,
+        "name": "Instance deletion",
+        "description": "",
+        "id": "instance-deletion;instance-deletion;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 846743572,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should navigate to Instance Creation page",
+            "match": {
+              "location": "Instance_Delete.user_should_navigate_to_Instance_Creation_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2603833575,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to enter InstancenameJ12 in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J12",
+                  "offset": 30
+                }
+              ],
+              "location": "Instance_Delete.user_has_to_enter_Instancename_in_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3988044734,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to click on delete button for Insatnce",
+            "match": {
+              "location": "Instance_Delete.user_has_to_click_on_delete_button_for_Insatnce()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1341404,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has successfully deleted Instance",
+            "match": {
+              "location": "Instance_Delete.user_has_successfully_deleted_Instance()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Instance deletion",
+    "description": "",
+    "id": "instance-deletion",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/Deletion/Instance_Delete.feature",
+    "tags": []
+  }
+]

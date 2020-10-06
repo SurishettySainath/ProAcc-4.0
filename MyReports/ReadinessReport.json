@@ -1,0 +1,150 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 19,
+        "name": "Login to application",
+        "description": "",
+        "id": "readinessreport;login-to-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15075632202,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should navigate to ProAcc page",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_should_navigate_to_ProAcc_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3701932272,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters GlobalVariable.userconsultant and GlobalVariable.passwordconsultant",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GlobalVariable.userconsultant",
+                  "offset": 12
+                },
+                {
+                  "val": "GlobalVariable.passwordconsultant",
+                  "offset": 46
+                }
+              ],
+              "location": "LogintoProAcc_StepDef.user_enters(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2198223332,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on LOG IN button",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_clicks_on_LOG_IN_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6471727674,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User will be logged in successfully",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_will_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "ReadinessReport functionality",
+        "description": "",
+        "id": "readinessreport;readinessreport-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke method createNode() on null object\r\n\tat org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)\r\n\tat ReadinessReportStepDef.user_is_on_ReadinessReport_page(ReadinessReport_StepDef.groovy:100)\r\n\tat ✽.User is on ReadinessReport page(Include/features/proAcc_Featurefile/Assessment/ReadinessReport.feature:23)\r\n",
+              "duration": 1520715219,
+              "status": "failed"
+            },
+            "line": 23,
+            "name": "User is on ReadinessReport page",
+            "match": {
+              "location": "ReadinessReportStepDef.user_is_on_ReadinessReport_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "User should select customer nameJames Test, project nameJames Pilot Phase Test and instance nameL01 from the dropdown list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "James Test",
+                  "offset": 32
+                },
+                {
+                  "val": "James Pilot Phase Test",
+                  "offset": 56
+                },
+                {
+                  "val": "L01",
+                  "offset": 96
+                }
+              ],
+              "location": "ReadinessReportStepDef.user_should_select_customer_name_project_name_and_instance_name_from_the_dropdown_list(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "User should see the Rediness report",
+            "match": {
+              "location": "ReadinessReportStepDef.user_should_see_the_Rediness_report()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "ReadinessReport",
+    "description": "",
+    "id": "readinessreport",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/Assessment/ReadinessReport.feature",
+    "tags": []
+  }
+]

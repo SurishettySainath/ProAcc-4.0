@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="158.151951">
+<testcase classname="Assessment Monitor for Consultant" name="Login to application" time="39.539876">
+<system-out><![CDATA[Given User should navigate to ProAcc page...................................passed
+And User enters jc_Consultant and b12345@...................................passed
+When User clicks on LOG IN button...........................................passed
+Then User will be logged in successfully....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Assessment Monitor for Consultant" name="Assessment Monitor functionality for Consultant" time="118.612075">
+<system-out><![CDATA[Given User is on Consultant Monitor pageAssessment..........................passed
+When User has to select Consultant Customernamejc Test and Project Namejc Pilot Phase Test and Consultant Instance NameJ12 from the dropdown for consultant Assessment Monitor.passed
+And User has to click on select instance button for Consultant Assessment Monitor.passed
+And User has to edit task for consultant....................................passed
+Then User should select instance successfully for Assessment Monitor Consultant.passed
+]]></system-out>
+</testcase>
+</testsuite>

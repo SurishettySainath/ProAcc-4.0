@@ -1,0 +1,63 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 12,
+        "name": "ActivityReport functionality",
+        "description": "",
+        "id": "activityreport;activityreport-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke method createNode() on null object\r\n\tat org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)\r\n\tat ActivityReportStepDef.user_is_on_ActivityReport_page(ActivityReport_StepDef.groovy:98)\r\n\tat ✽.User is on ActivityReport page(Include/features/proAcc_Featurefile/Assessment/ActivityReport.feature:13)\r\n",
+              "duration": 813331215,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "User is on ActivityReport page",
+            "match": {
+              "location": "ActivityReportStepDef.user_is_on_ActivityReport_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User should select by phase and by condition values from dropdownlist",
+            "match": {
+              "location": "ActivityReportStepDef.user_should_select_by_phase_and_by_condition_values_from_dropdownlist()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User should see the ActivityReport",
+            "match": {
+              "location": "ActivityReportStepDef.user_should_see_the_ActivityReport()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "ActivityReport",
+    "description": "",
+    "id": "activityreport",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/Assessment/ActivityReport.feature",
+    "tags": []
+  }
+]

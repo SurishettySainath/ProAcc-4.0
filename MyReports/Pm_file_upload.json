@@ -1,0 +1,159 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 20,
+        "name": "Login to application",
+        "description": "",
+        "id": "pm-file-upload-in-pm-login;login-to-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20867944525,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should navigate to ProAcc page",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_should_navigate_to_ProAcc_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3322969365,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters jc_PM and b12345@",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc_PM",
+                  "offset": 12
+                },
+                {
+                  "val": "b12345@",
+                  "offset": 22
+                }
+              ],
+              "location": "LogintoProAcc_StepDef.user_enters(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34117869444,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on LOG IN button",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_clicks_on_LOG_IN_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3003499875,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User will be logged in successfully",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_will_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Pm file upload",
+        "description": "",
+        "id": "pm-file-upload-in-pm-login;pm-file-upload;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2005229955,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User should navigate to Pm file upload page",
+            "match": {
+              "location": "Pm_file_upload.User_should_navigate_to_Pm_file_upload_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6643466996,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User has to select Project Namejc Pilot Phase Test and Instance NameJ12 from the dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc Pilot Phase Test",
+                  "offset": 31
+                },
+                {
+                  "val": "J12",
+                  "offset": 68
+                }
+              ],
+              "location": "Pm_file_upload.User_has_to_select_Project_Name_and_Instance_Name_from_the_dropdown(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12244779305,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User has to upload PM FILES for Comprehensive Assessment and Readiness Check Report, Landscape System Management, Custom Code Analysis, License Optimization",
+            "match": {
+              "location": "Pm_file_upload.User_has_to_upload_PM_FILES()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2010746397,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should upload file successfully and navigate to assessment report",
+            "match": {
+              "location": "Pm_file_upload.user_should_upload_file_successfully_and_navigate_to_assessment_report()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Pm file upload in Pm login",
+    "description": "",
+    "id": "pm-file-upload-in-pm-login",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/Pm_file_upload/Pm_file_upload.feature",
+    "tags": []
+  }
+]

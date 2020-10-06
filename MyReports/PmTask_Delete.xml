@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.046836">
+<testcase classname="PmTask deletion" name="PmTask deletion" time="7.046836">
+<system-out><![CDATA[Given User should navigate to PmTask Creation page..........................passed
+When User has to enter PmTasknamejctest in search box.......................passed
+And User has to click on delete button for PmTask...........................passed
+Then User has successfully deleted PmTask...................................passed
+]]></system-out>
+</testcase>
+</testsuite>

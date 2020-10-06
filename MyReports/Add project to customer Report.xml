@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="24.244497">
+<testcase classname="Project Creation" name="Creajcg new Project" time="24.244497">
+<system-out><![CDATA[Given User is on Project Creation page......................................passed
+When User has to enter project namejc Pilot Phase Test......................passed
+And User has to enter project descriptionPro acc Inprogress.................passed
+And User has to select Customer name from dropdownjc Test...................passed
+And User has to select Project manager from dropdownjc_PM...................passed
+And User has to select Scenario from dropdownMERGE..........................passed
+And User has to click create button for project creation....................passed
+Then User can search for created project in listjc Pilot Phase Test.........passed
+]]></system-out>
+</testcase>
+</testsuite>

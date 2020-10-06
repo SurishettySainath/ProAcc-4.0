@@ -1,0 +1,58 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 18,
+        "name": "View instance project list functionality",
+        "description": "",
+        "id": "view-instance-project-list;view-instance-project-list-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4404686200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User navigate to view instance project list page",
+            "match": {
+              "location": "ViewInstanceToProject_StepDef.user_navigate_to_view_instance_project_list_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3116319600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User can search instance project name in searchF01",
+            "match": {
+              "arguments": [
+                {
+                  "val": "F01",
+                  "offset": 47
+                }
+              ],
+              "location": "ViewInstanceToProject_StepDef.user_can_search_instance_project_name_in_search(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "View instance project list",
+    "description": "",
+    "id": "view-instance-project-list",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/Configuration/View instance to project.feature",
+    "tags": []
+  }
+]

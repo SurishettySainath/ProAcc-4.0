@@ -1,0 +1,110 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 21,
+        "name": "Creating new task for Project Manager",
+        "description": "",
+        "id": "pmtaskcreation;creating-new-task-for-project-manager;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3707126527,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on PM Task Creation page",
+            "match": {
+              "location": "PMTaskCreation_StepDef.user_is_on_PM_Task_Creation_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6111464981,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to select task categoryPlan Project",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Plan Project",
+                  "offset": 32
+                }
+              ],
+              "location": "PMTaskCreation_StepDef.user_has_to_select_task_category(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7803596888,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to write task namejctesting,Est Hrs10:10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jctesting",
+                  "offset": 27
+                },
+                {
+                  "val": "10:10",
+                  "offset": 44
+                }
+              ],
+              "location": "PMTaskCreation_StepDef.user_has_to_write_task_name(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5322871192,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has to click on create button for task creation",
+            "match": {
+              "location": "PMTaskCreation_StepDef.user_has_to_click_on_create_button_for_task_creation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4125145866,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User can search for created task in listjctesting",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jctesting",
+                  "offset": 40
+                }
+              ],
+              "location": "PMTaskCreation_StepDef.user_can_search_for_created_task_in_list(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "PMTaskCreation",
+    "description": "",
+    "id": "pmtaskcreation",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/Configuration/PMTaskCreation.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="105.123609">
+<testcase classname="Activity Creation" name="Creating Activity" time="25.340703">
+<system-out><![CDATA[Given User is on create activity page.......................................passed
+When User has to fill the fields like Taskjc Custom Code Assessment,ApplicationAreaFunctional - All,PhaseAssessment,RoleFunctional,BuildingBlockApplication Overview,Est Hrs10:43.passed
+And User has to click on create button for create activity and need to select task.passed
+Then User can search for created activity in listjc Custom Code Assessment..passed
+]]></system-out>
+</testcase>
+<testcase classname="Activity Creation" name="Creating Activity 2" time="23.124935">
+<system-out><![CDATA[Given User is on create activity page.......................................passed
+When User has to fill the fields like Taskjc Custom Code Pre_Conversion,ApplicationAreaFunctional - All,PhasePre Conversion,RoleFunctional,BuildingBlockData Consistency Verification,Est Hrs11:34.passed
+And User has to click on create button for create activity and need to select task.passed
+Then User can search for created activity in listjc Custom Code Pre_Conversion.passed
+]]></system-out>
+</testcase>
+<testcase classname="Activity Creation" name="Creating Activity 3" time="31.513913">
+<system-out><![CDATA[Given User is on create activity page.......................................passed
+When User has to fill the fields like Taskjc Custom Code Conversion,ApplicationAreaTechnical - BASIS,PhaseConversion,RoleBASIS,BuildingBlockCustom Code,Est Hrs12:34.passed
+And User has to click on create button for create activity and need to select task.passed
+Then User can search for created activity in listjc Custom Code Conversion..passed
+]]></system-out>
+</testcase>
+<testcase classname="Activity Creation" name="Creating Activity 4" time="25.144058">
+<system-out><![CDATA[Given User is on create activity page.......................................passed
+When User has to fill the fields like Taskjc Custom Code Post_Conversion,ApplicationAreaFunctional - All,PhasePost Conversion,RoleFunctional,BuildingBlockApplication Overview,Est Hrs34:32.passed
+And User has to click on create button for create activity and need to select task.passed
+Then User can search for created activity in listjc Custom Code Post_Conversion.passed
+]]></system-out>
+</testcase>
+</testsuite>

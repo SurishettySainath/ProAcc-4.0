@@ -1,0 +1,183 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 20,
+        "name": "Login to application",
+        "description": "",
+        "id": "resource-allocation;login-to-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22840419878,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should navigate to ProAcc page",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_should_navigate_to_ProAcc_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3301877741,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters jc_PM and b12345@",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc_PM",
+                  "offset": 12
+                },
+                {
+                  "val": "b12345@",
+                  "offset": 22
+                }
+              ],
+              "location": "LogintoProAcc_StepDef.user_enters(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16144672965,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on LOG IN button",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_clicks_on_LOG_IN_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3006754317,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User will be logged in successfully",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_will_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Resource Allocation functionality",
+        "description": "",
+        "id": "resource-allocation;resource-allocation-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11136103335,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on Resource Allocation pageAssessment",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Assessment",
+                  "offset": 35
+                }
+              ],
+              "location": "ResourceAllocation_StepDef.user_is_on_Resource_Allocation_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9162432054,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User has to select Project Namejc Pilot Phase Test and Instance NameJ12 from the dropdown for Resource Allocation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc Pilot Phase Test",
+                  "offset": 31
+                },
+                {
+                  "val": "J12",
+                  "offset": 68
+                }
+              ],
+              "location": "ResourceAllocation_StepDef.user_has_to_select_Project_Name_and_Instance_Name_from_the_dropdown_for_Resource_Allocation(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2323923430,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User has to click on select instance button for Resource Allocation",
+            "match": {
+              "location": "ResourceAllocation_StepDef.user_has_to_click_on_select_instance_button_for_Resource_Allocation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83414689034,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should allocate ownerjc_Consultantfor a particular task",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jc_Consultant",
+                  "offset": 26
+                }
+              ],
+              "location": "ResourceAllocation_StepDef.user_should_allocate_owner_for_a_particular_task(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3187378315,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User should select instance successfully for Resource Allocation",
+            "match": {
+              "location": "ResourceAllocation_StepDef.user_should_select_instance_successfully_for_Resource_Allocation()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Resource Allocation",
+    "description": "",
+    "id": "resource-allocation",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/Assessment/ResourceAllocation.feature",
+    "tags": []
+  }
+]

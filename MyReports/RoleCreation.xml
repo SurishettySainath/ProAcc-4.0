@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.122106">
+<testcase classname="Role Creation" name="Creating New Role" time="12.122106">
+<system-out><![CDATA[Given User is on Role Creation page.........................................passed
+When User has to enter Role nameUserRole....................................passed
+And User has to click on create button for create Role......................passed
+Then User can search for created Role in listUserRole.......................passed
+]]></system-out>
+</testcase>
+</testsuite>

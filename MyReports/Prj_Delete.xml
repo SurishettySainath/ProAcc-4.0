@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="10.761983">
+<testcase classname="Project deletion" name="Project deletion" time="10.761983">
+<system-out><![CDATA[Given User should navigate to Project Creation page.........................passed
+When User has to enter Projectnamejc Pilot Phase Test in search box.........passed
+And User has to click on delete button for project..........................passed
+Then User has successfully deleted Project..................................passed
+]]></system-out>
+</testcase>
+</testsuite>

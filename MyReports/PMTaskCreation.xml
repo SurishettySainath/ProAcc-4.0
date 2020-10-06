@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="27.077479">
+<testcase classname="PMTaskCreation" name="Creating new task for Project Manager" time="27.077479">
+<system-out><![CDATA[Given User is on PM Task Creation page......................................passed
+When User has to select task categoryPlan Project...........................passed
+And User has to write task namejctesting,Est Hrs10:10.......................passed
+And User has to click on create button for task creation....................passed
+Then User can search for created task in listjctesting......................passed
+]]></system-out>
+</testcase>
+</testsuite>
